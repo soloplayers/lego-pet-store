@@ -1,0 +1,55 @@
+
+
+.contactUs {
+  color: #ea6810;
+  background-color: #4c0000;
+}
+
+/* 左右两栏布局开始 */
+.LRLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 左边布局开始 */
+.leftContent {
+  min-width: 40vw;
+  margin-left: 2.5vw;
+}
+
+.leftContent > div h1, .leftContent > div h2 {
+  margin-bottom: 2vh;
+}
+
+.leftContent div p{
+  margin-bottom: 0.75vh;
+}
+
+.contactInfo {
+  font-size: 18px;
+  margin-top: 5vh;
+}
+
+.leftContent .contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.leftContent div > img {
+  display: block;
+  width: 2.5vw;
+  margin-right: 0.75vw;
+}
+
+/* 左边布局结束 */
+/* 右边布局开始 */
+.rightInfo img {
+  width: 55vw;
+}
+
+/* 右边布局结束 */
+/* 左右两栏布局结束 */

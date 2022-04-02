@@ -1,0 +1,118 @@
+.leaveWords {
+  color: #ea6810;
+  background-color: #4c0000;
+}
+
+/* 左右两栏布局开始 */
+/* 左边布局开始 */
+.leaveWordsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 10vh;
+  margin-top: 8vh;
+}
+
+.leftContent {
+  color: black;
+}
+
+.leftContent > div {
+  margin-left: 1vw;
+}
+
+.leftContent > div p{
+  margin-left: 1vw;
+}
+
+.leftContent h1 {
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+
+.leftContent h2 {
+  margin-left: 1vw;
+  margin-bottom: 3vh;
+}
+
+.leftContent .specialInfo {
+  margin-top: 3vh;
+  margin-bottom: 2.5vh;
+}
+
+.leftContent div p:last-child {
+  margin-bottom: 3vh;
+}
+
+.leaveWordsBgImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 45vw;
+}
+
+.leaveWordsBgImg img {
+  width: 20vw;
+  display: block;
+}
+
+/* 左边布局结束 */
+
+/* 右边布局开始 */
+.rightContent {
+  width: 50vw;
+  height: 50vh;
+  background-color: #f45d02;
+}
+
+.rightContent > div p {
+  font-size: 12px;
+}
+
+.rightContent > div i {
+  font-size: 36px;
+}
+
+.rightContent div:first-child {
+  margin-top: 5vh;
+}
+
+.rightContent input {
+  font-size: 18px;
+  height: 6vh;
+  border-radius: 1vh;
+}
+
+.rightContent button {
+  height: 5vh;
+  border-radius: 1vh;
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+  font-size: 18px;
+  color: #f55d02;
+}
+
+.rightContent div:nth-child(2), .rightContent div:nth-child(4) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightContent div:nth-child(3) label, .rightContent div:nth-child(5) label {
+  margin-left: 5vw;
+}
+
+.rightContent div:nth-child(2) p, .rightContent div:nth-child(4) p {
+  margin-left: 5vw;
+  font-size: 21px;
+}
+
+.rightContent div:last-child {
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+/* 右边布局结束 */
+
+/* 左右两栏布局结束 */

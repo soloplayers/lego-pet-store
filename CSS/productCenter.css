@@ -1,0 +1,185 @@
+.productCenter {
+  color: #ea6810;
+  background-color: #4c0000;
+}
+/* 产品中心开始--两栏左右布局 */
+.listWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.productNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+/* 左边布局开始 */
+
+/* 产品列表开始 */
+
+.productListWrapper {
+  margin-left: 1vw;
+}
+
+.productNav > div {
+  color: #898989;
+}
+
+.productNav > div h2 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.productNav strong, .productNav img {
+  display: block;
+}
+
+.productListNav {
+  margin-top: 1vh;
+  background-color: #bebebe;
+  font-size: 18px;
+}
+
+.dogArea, .catArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dogArea img, .catArea img {
+  margin-right: 1vw;
+  width: 21px;
+}
+
+.productListNav p {
+  border-bottom: 1px solid black;
+  margin-left: 1vw;
+}
+
+.productListNav p:last-child {
+  border-bottom: none;
+}
+
+.dogList, .catList {
+  display: none;
+}
+
+/* 产品列表结束 */
+/* 热门推荐开始 */
+.recommendation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.recommendation img {
+  display: block;
+  width: 8vw;
+  margin-bottom: 5vh;
+  margin-left: 1vw;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.item div {
+  margin-top: 3.5vh;
+}
+
+.item .price {
+  display: inline-block;
+}
+
+em {
+  color: red;
+}
+
+/* 热门推荐结束 */
+
+/* 左边布局结束 */
+
+/* 右边布局开始 */
+.productList {
+  position: relative;
+  width: 75vw;
+  height: 172vh;
+  overflow: hidden;
+}
+
+.productList img {
+  max-width: 20vw;
+}
+
+.mainProductList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mainProductList li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  align-items: center;
+  text-align: center;
+}
+
+.mainProductList li:last-child {
+  width: 22vw;
+}
+
+.mainProductList li img {
+  display: block;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 20vw;
+  position: absolute;
+  bottom: 1vh;
+  left: calc(50% - 10vw);
+  z-index: 1;
+}
+
+.controller li div,.controller li p{
+  font-size: 24px;
+  width: 3vw;
+  height: 3vw;
+  line-height: 3vw;
+  border: 1px solid black;
+}
+
+
+.controller li:first-child p, .controller li:last-child p{
+  font-size: 24px;
+  line-height: 3vw;
+  width: 4vw;
+  height: 3vw;
+}
+
+.controller .selected {
+  background-color: black;
+  color: white;
+}
+
+/* 右边布局结束 */
+/* 产品中心结束--两栏左右布局 */

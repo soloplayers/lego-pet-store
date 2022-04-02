@@ -1,0 +1,150 @@
+.indexHTML {
+  color: #ea6810;
+  background-color: #4c0000;
+}
+h1 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+/* 轮播开始 */
+.adPlayer {
+  position: relative;
+  height: 56.25vw;
+  overflow: hidden;
+}
+
+.adPlayer .left, .adPlayer .right {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: calc(50% - 32px);
+  background-color: rgba(63, 63, 63, .3);
+  z-index: 1;
+}
+
+.adPlayer .right {
+  right: 0;
+}
+
+.adPlayer .left {
+  left: 0;
+}
+
+.adPlayer .left img, .adPlayer .right img {
+  width: inherit;
+}
+
+.playWorks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310%;
+}
+
+.playWorks li {
+  float: left;
+}
+
+.playWorks li img {
+  height: 56.25vw;
+}
+
+.adPlayer .circles {
+  position: absolute;
+  width: 150px;
+  bottom: 0;
+  left: calc(50% - 75px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.adPlayer .circles li {
+  border: 1px solid deepskyblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.adPlayer .circles li:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: deepskyblue;
+}
+
+/* 轮播结束 */
+
+/* 热销产品开始 */
+.productList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productList li img {
+  width: 15vw;
+}
+
+/* 热销产品结束 */
+
+
+/* 合作伙伴开始 */
+.partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partner li img {
+  width: 84px;
+  height: 56px;
+}
+
+/* 合作伙伴结束 */
+
+/* 页脚内容开始 */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d73822;
+}
+
+.footer div > i {
+  color: white;
+  font-size: 32px;
+}
+
+.footer div > p {
+  color: white;
+  font-size: 18px;
+  margin-right: 1vw;
+}
+
+.footer div > button {
+  font-size: 18px;
+  color: #d94a37;
+}
+
+.footer div input {
+  height: 4vh;
+}
+
+.wayToContact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* 页脚内容结束 */

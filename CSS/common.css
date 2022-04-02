@@ -1,0 +1,124 @@
+/* 背景图片开始 */
+.bgImg img {
+  width: 100%;
+  height: 56.25%;
+}
+
+/* 背景图片结束 */
+
+/* 位置信息开始 */
+.location {
+  font-size: 21px;
+  border-bottom: 1px solid #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.location img {
+  display: block;
+  width: 32px;
+  margin-right: 0.25vw;
+}
+
+/* 位置信息结束 */
+
+
+/* 导航栏开始 */
+.navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  font-size: 24px;
+  z-index: 2;
+}
+
+.loginRegister {
+  margin-right: 3vw;
+  color: red;
+  font-size: 18px;
+}
+
+.indexHTML:hover, .aboutUS:hover, .productCenter:hover, .leaveWords:hover, .contactUs:hover {
+  background-color: #4c0000;
+  color: #ea6810;
+}
+
+.logo img {
+  width: 256px;
+}
+
+/* 用户信息开始 */
+
+.navBar em {
+  border: 1px solid;
+  font-style: normal;
+  font-size: 18px;
+  position: absolute;
+  top: 60%;
+  right: 4vw;
+  color: deepskyblue;
+  display: none;
+}
+
+.navBar em:hover {
+  cursor: pointer;
+}
+
+.navBar em::after {
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 10px);
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-bottom-color: deepskyblue;
+}
+
+/* 用户信息结束 */
+
+/* 导航栏结束 */
+
+
+/* 页脚信息开始 */
+.footerInfo {
+  background-color: #a7a7a7;
+}
+
+/* 页脚信息结束 */
+
+/* 页脚导航开始 */
+.footerNav > p {
+  font-size: 24px;
+  margin-bottom: 0.5vh;
+}
+
+.footerNavWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 64vw;
+  justify-content: space-between;
+  font-size: 21px;
+  margin-bottom: 0.5vh;
+}
+
+/* 页脚导航结束 */
+
+/* 版权声明开始 */
+.copyrightInfo {
+  text-align: center;
+}
+
+.copyrightInfo p {
+  margin-bottom: 1vh;
+}
+
+/* 版权声明结束 */

@@ -1,0 +1,51 @@
+/* 广告开始 */
+.ad {
+  position: relative;
+  height: 32vw;
+}
+
+.ad img {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 38vw;
+  top: 6vw;
+  left: calc(50% - 50vw);
+  z-index: 3;
+}
+.ad .tips {
+  width: 18vw;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 9vw);
+  margin-top: 3vh;
+}
+
+/* 广告结束 */
+
+.aboutUS {
+  color: #ea6810;
+  background-color: #4c0000;
+}
+
+/* 主要内容开始 */
+.story1, .story2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+}
+
+.story1 p, .story2 p {
+  font-size: 18px;
+}
+
+.story1 div img {
+  width: 48vw;
+  height: 27vw;
+}
+
+/* 主要内容结束 */

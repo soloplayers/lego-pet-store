@@ -1,0 +1,102 @@
+/* 背景图片开始 */
+
+.BgImg {
+  position: relative;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 45vw;
+}
+
+.BgImg img {
+  display: block;
+}
+
+.BgImg > img {
+  width: 80vw;
+  height: 45vw;
+}
+
+/* 背景图片结束 */
+
+/* 登录界面布局开始 */
+.loginWrapper {
+  position: absolute;
+  width: 35vw;
+  height: 45vw;
+  right: 0;
+  top: 0;
+  background-color: #bcb5aa;
+}
+
+.loginWrapper img {
+  position: absolute;
+  right: calc(50% - 14.25vw);
+  top: -8vw;
+  width: 28.5vw;
+  height: 31.5vw;
+}
+
+.loginWrapper .loginInfo {
+  width: 35vw;
+  position: absolute;
+  left: 0;
+  top: 16vw;
+  font-size: 24px;
+  color: white;
+}
+
+.loginWrapper .loginInfo div {
+  display: flex;
+  justify-content: space-between;
+  width: 26vw;
+  margin-left: 3vw;
+}
+
+.loginWrapper .loginInfo div{
+  display: flex;
+}
+.loginWrapper .loginInfo div p {
+  margin-right: 1vw;
+  margin-bottom: 2vw;
+}
+
+.loginWrapper .loginInfo input {
+  display: block;
+  padding-left: 3px;
+  border-radius: 1vh;
+  height: 3vh;
+  width: 18vw;
+  font-size: 16px;
+}
+
+.loginBtn {
+  margin-top: 10px;
+}
+
+.loginBtn button {
+  width: 8vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+  border-radius: 1vw;
+  background-color: #4c0000;
+  color: white;
+  
+}
+.loginWrapper .loginInfo footer{
+  width: 4vw;
+  margin-left: 5vw;
+  margin-top: 8vw;
+}
+.loginWrapper .loginInfo footer a {
+  font-size: 21px;
+  display: block;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+/* 登录界面布局结束 */
